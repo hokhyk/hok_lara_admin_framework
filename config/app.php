@@ -161,6 +161,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         //Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        //Modules\Shop\Providers\ShopServiceProvider::class,
     ],
 
     /*
@@ -209,6 +210,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Api' => Dingo\Api\Facade\API::class,
+        'DingoRoute' => Dingo\Api\Facade\Route::class,
 
     ],
 

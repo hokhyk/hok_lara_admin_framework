@@ -6,7 +6,6 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
-        "aimeos/aimeos-laravel": "^2018.04",
         "caouecs/laravel-lang": "^3.0",
         "cmgmyr/messenger": "^2.15",
         "davejamesmiller/laravel-breadcrumbs": "^5.1",
@@ -20,6 +19,7 @@
         "intervention/image": "^2.4",
         "intervention/imagecache": "^2.3",
         "itsgoingd/clockwork": "^2.2",
+        "joshbrw/laravel-module-installer": "^0.1.4",
         "kalnoy/nestedset": "^4.3",
         "laracasts/flash": "^3.0",
         "laravel/framework": "5.6.*",
@@ -42,6 +42,7 @@
         "rap2hpoutre/laravel-log-viewer": "^0.14.3",
         "santigarcor/laratrust": "*",
         "silber/bouncer": "*",
+        "spatie/eloquent-sortable": "^3.4",
         "spatie/laravel-analytics": "^3.6",
         "spatie/laravel-backup": "^5.7",
         "spatie/laravel-permission": "*",
@@ -65,7 +66,8 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Modules\\": "Modules/"
         }
     },
     "autoload-dev": {

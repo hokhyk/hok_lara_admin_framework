@@ -4,543 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5141f9e33099de53afcc254a3e392c3",
+    "content-hash": "de3581287f2da5586a5840ed7bd4186d",
     "packages": [
-        {
-            "name": "aimeos/ai-admin-jqadm",
-            "version": "2018.04.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-admin-jqadm.git",
-                "reference": "1125e5ce14dc49f806c5847e1d7df39f31a01b87"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/aimeos/ai-admin-jqadm/1125e5ce14dc49f806c5847e1d7df39f31a01b87.zip",
-                "reference": "1125e5ce14dc49f806c5847e1d7df39f31a01b87",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "~2018.04",
-                "composer/installers": "^1.0",
-                "php": ">=5.3.3"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\Admin\\JQAdm\\": "admin/jqadm/src/Admin/JQAdm/",
-                    "Aimeos\\MW\\": "lib/custom/src/MW"
-                },
-                "classmap": [
-                    "admin/jqadm/src",
-                    "lib/custom/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos ai-admin-jqadm extension",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "JQuery admin interface",
-                "aimeos",
-                "extension"
-            ],
-            "time": "2018-04-29T12:07:57+00:00"
-        },
-        {
-            "name": "aimeos/ai-admin-jsonadm",
-            "version": "2018.04.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-admin-jsonadm.git",
-                "reference": "dee82cd44dbaa5414a15328acfb9fb21e53fe00b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/aimeos/ai-admin-jsonadm/dee82cd44dbaa5414a15328acfb9fb21e53fe00b.zip",
-                "reference": "dee82cd44dbaa5414a15328acfb9fb21e53fe00b",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "~2018.04",
-                "composer/installers": "^1.0",
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "zendframework/zend-diactoros": "~1.3"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\Admin\\Jsonadm\\": "admin/jsonadm/src/Admin/Jsonadm/"
-                },
-                "classmap": [
-                    "admin/jsonadm/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos ai-admin-jsonadm extension",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "admin",
-                "aimeos",
-                "extension",
-                "json api"
-            ],
-            "time": "2018-04-16T11:05:52+00:00"
-        },
-        {
-            "name": "aimeos/ai-client-html",
-            "version": "2018.04.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-client-html.git",
-                "reference": "77ae94aeb4be4401904fdbd674d288b33c881747"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/aimeos/ai-client-html/77ae94aeb4be4401904fdbd674d288b33c881747.zip",
-                "reference": "77ae94aeb4be4401904fdbd674d288b33c881747",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/ai-controller-frontend": "~2018.04",
-                "aimeos/ai-controller-jobs": "~2018.04",
-                "aimeos/aimeos-core": "~2018.04",
-                "composer/installers": "^1.0",
-                "php": ">=5.3.3"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\Client\\Html\\": "client/html/src/Client/Html/",
-                    "Aimeos\\Controller\\Jobs\\": "controller/jobs/src/Controller/Jobs/",
-                    "Aimeos\\Controller\\Common\\": "controller/common/src/Controller/Common/"
-                },
-                "classmap": [
-                    "client/html/src",
-                    "controller/jobs/src",
-                    "controller/common/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos ai-client-html extension",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "aimeos",
-                "client",
-                "extension",
-                "html"
-            ],
-            "time": "2018-05-28T12:36:11+00:00"
-        },
-        {
-            "name": "aimeos/ai-client-jsonapi",
-            "version": "2018.04.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-client-jsonapi.git",
-                "reference": "234cc9ae1983ef759c9855144fd1bd8de528694b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/aimeos/ai-client-jsonapi/234cc9ae1983ef759c9855144fd1bd8de528694b.zip",
-                "reference": "234cc9ae1983ef759c9855144fd1bd8de528694b",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/ai-controller-frontend": "~2018.04",
-                "aimeos/aimeos-core": "~2018.04",
-                "composer/installers": "^1.0",
-                "php": ">=5.4.0"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\Client\\JsonApi\\": "client/jsonapi/src/Client/JsonApi/"
-                },
-                "classmap": [
-                    "client/jsonapi/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos JSON API extension",
-            "keywords": [
-                "aimeos",
-                "api",
-                "extension",
-                "json"
-            ],
-            "time": "2018-04-16T11:09:13+00:00"
-        },
-        {
-            "name": "aimeos/ai-controller-frontend",
-            "version": "2018.04.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-controller-frontend.git",
-                "reference": "8b16dafd4c17e2e8b3184c76b90ffb2089509e5a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/aimeos/ai-controller-frontend/8b16dafd4c17e2e8b3184c76b90ffb2089509e5a.zip",
-                "reference": "8b16dafd4c17e2e8b3184c76b90ffb2089509e5a",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "~2018.04",
-                "composer/installers": "^1.0",
-                "php": ">=5.3.3"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\Controller\\Frontend\\": "controller/frontend/src/Controller/Frontend/"
-                },
-                "classmap": [
-                    "controller/frontend/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos ai-controller-frontend extension",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "aimeos",
-                "controller",
-                "extension",
-                "frontend"
-            ],
-            "time": "2018-04-16T11:10:12+00:00"
-        },
-        {
-            "name": "aimeos/ai-controller-jobs",
-            "version": "2018.04.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-controller-jobs.git",
-                "reference": "1aece8a312a9a5f9041dd27a8295381821a9afac"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/aimeos/ai-controller-jobs/1aece8a312a9a5f9041dd27a8295381821a9afac.zip",
-                "reference": "1aece8a312a9a5f9041dd27a8295381821a9afac",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "~2018.04",
-                "composer/installers": "^1.0",
-                "php": ">=5.3.3"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\Controller\\Common\\": "controller/jobs/src/Controller/Common/",
-                    "Aimeos\\Controller\\Jobs\\": "controller/jobs/src/Controller/Jobs/"
-                },
-                "classmap": [
-                    "controller/common/src",
-                    "controller/jobs/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos ai-controller-jobs extension",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "aimeos",
-                "controller",
-                "extension",
-                "jobs"
-            ],
-            "time": "2018-04-16T11:11:02+00:00"
-        },
-        {
-            "name": "aimeos/ai-gettext",
-            "version": "2018.04.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-gettext.git",
-                "reference": "bca7035e0411078ded5a51b7b760cbf73eb93f14"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/aimeos/ai-gettext/bca7035e0411078ded5a51b7b760cbf73eb93f14.zip",
-                "reference": "bca7035e0411078ded5a51b7b760cbf73eb93f14",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "~2018.04",
-                "composer/installers": "^1.0",
-                "php": ">=5.3.3"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\MW\\": "lib/mwlib/src/MW/"
-                },
-                "classmap": [
-                    "lib/custom/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos Gettext extension",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "aimeos",
-                "extension",
-                "gettext",
-                "performance"
-            ],
-            "time": "2018-04-16T12:46:34+00:00"
-        },
-        {
-            "name": "aimeos/ai-laravel",
-            "version": "2018.04.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-laravel.git",
-                "reference": "ea80f6cb6184865bf5baf69552cae00748569e3a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/aimeos/ai-laravel/ea80f6cb6184865bf5baf69552cae00748569e3a.zip",
-                "reference": "ea80f6cb6184865bf5baf69552cae00748569e3a",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "~2018.04",
-                "composer/installers": "^1.0",
-                "laravel/framework": "~5.0",
-                "php": ">=5.3.3",
-                "zendframework/zend-diactoros": "~1.0"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\MW\\": "lib/custom/src/MW"
-                },
-                "classmap": [
-                    "lib/custom/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Laravel adapter for Aimeos web shops and e-commerce solutions",
-            "homepage": "https://aimeos.org/Laravel",
-            "keywords": [
-                "adapter",
-                "aimeos",
-                "e-commerce",
-                "laravel",
-                "shop"
-            ],
-            "time": "2018-04-04T10:23:11+00:00"
-        },
-        {
-            "name": "aimeos/ai-swiftmailer",
-            "version": "2018.04.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-swiftmailer.git",
-                "reference": "87824c6de131b3c2ad5f04714b4ed780b68a4ddb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/aimeos/ai-swiftmailer/87824c6de131b3c2ad5f04714b4ed780b68a4ddb.zip",
-                "reference": "87824c6de131b3c2ad5f04714b4ed780b68a4ddb",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "~2018.04",
-                "composer/installers": "^1.0",
-                "php": ">=5.3.3",
-                "swiftmailer/swiftmailer": "~4.0||~5.0||~6.0"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\MW\\": "lib/custom/src/MW"
-                },
-                "classmap": [
-                    "lib/custom/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "SwiftMailer adapter for Aimeos web shops and e-commerce solutions",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "adapter",
-                "aimeos",
-                "e-commerce",
-                "mail",
-                "shop",
-                "swiftmailer"
-            ],
-            "time": "2018-04-04T10:23:13+00:00"
-        },
-        {
-            "name": "aimeos/aimeos-core",
-            "version": "2018.04.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/aimeos-core.git",
-                "reference": "10fe206ab97655a6992dbbb9dc82acf1b4bd06ff"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/aimeos/aimeos-core/10fe206ab97655a6992dbbb9dc82acf1b4bd06ff.zip",
-                "reference": "10fe206ab97655a6992dbbb9dc82acf1b4bd06ff",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/dbal": "~2.0",
-                "ext-curl": "*",
-                "ext-dom": "*",
-                "ext-fileinfo": "*",
-                "ext-gd": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "ext-pcre": "*",
-                "ext-pdo": "*",
-                "ext-zip": "*",
-                "php": "^5.4.0||^7.0.4",
-                "psr/http-message": "~1.0"
-            },
-            "require-dev": {
-                "phing/phing": "~2.4",
-                "phpunit/phpunit": "^4.8.35||^5.0",
-                "satooshi/php-coveralls": "dev-master",
-                "squizlabs/php_codesniffer": "~1.0",
-                "zendframework/zend-diactoros": "~1.3"
-            },
-            "suggest": {
-                "apigen/apigen": "Required for generating the API documentation"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\MW\\": "lib/mwlib/src/MW/",
-                    "Aimeos\\MShop\\": "lib/mshoplib/src/MShop/",
-                    "Aimeos\\MAdmin\\": "lib/mshoplib/src/MAdmin/",
-                    "Aimeos\\Controller\\Common\\": "controller/common/src/Controller/Common/",
-                    "Aimeos\\Controller\\Jobs\\": "controller/common/src/Controller/Jobs/",
-                    "Aimeos\\": "."
-                },
-                "classmap": [
-                    "lib/mwlib/src",
-                    "lib/mshoplib/src",
-                    "controller/common/src",
-                    "controller/jobs/src",
-                    "Bootstrap.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Full-featured e-commerce components for high performance online shops",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "e-commerce",
-                "market place",
-                "portal",
-                "shop"
-            ],
-            "time": "2018-05-07T11:15:26+00:00"
-        },
-        {
-            "name": "aimeos/aimeos-laravel",
-            "version": "2018.04.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/aimeos-laravel.git",
-                "reference": "3b619353d1a8aa4603864114cc73474123bf17a2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/aimeos/aimeos-laravel/3b619353d1a8aa4603864114cc73474123bf17a2.zip",
-                "reference": "3b619353d1a8aa4603864114cc73474123bf17a2",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/ai-admin-jqadm": "~2018.04",
-                "aimeos/ai-admin-jsonadm": "~2018.04",
-                "aimeos/ai-client-html": "~2018.04",
-                "aimeos/ai-client-jsonapi": "~2018.04",
-                "aimeos/ai-controller-jobs": "~2018.04",
-                "aimeos/ai-gettext": "~2018.04",
-                "aimeos/ai-laravel": "~2018.04",
-                "aimeos/ai-swiftmailer": "~2018.04",
-                "aimeos/aimeos-core": "~2018.04",
-                "doctrine/dbal": "~2.5",
-                "laravel/framework": "~5.3",
-                "symfony/psr-http-message-bridge": "~1.0",
-                "zendframework/zend-diactoros": "~1.3"
-            },
-            "require-dev": {
-                "mockery/mockery": "~0.9",
-                "orchestra/testbench": "~3.0",
-                "orchestra/testbench-browser-kit": "~3.1",
-                "phpunit/phpunit": "~4.0||~5.0||~6.0||~7.0",
-                "satooshi/php-coveralls": "dev-master"
-            },
-            "type": "laravel-bundle",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Aimeos\\Shop\\ShopServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Aimeos\\Shop\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Full-featured Laravel web shop package and e-commerce solution for high performance shops",
-            "homepage": "https://aimeos.org/Laravel",
-            "keywords": [
-                "aimeos",
-                "e-commerce",
-                "ecommerce",
-                "laravel",
-                "market place",
-                "portal",
-                "shop"
-            ],
-            "time": "2018-04-10T17:22:01+00:00"
-        },
         {
             "name": "arrilot/laravel-widgets",
             "version": "3.12",
@@ -841,126 +306,6 @@
                 "package"
             ],
             "time": "2018-05-04T09:44:59+00:00"
-        },
-        {
-            "name": "composer/installers",
-            "version": "v1.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/composer/installers.git",
-                "reference": "049797d727261bf27f2690430d935067710049c2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/composer/installers/049797d727261bf27f2690430d935067710049c2.zip",
-                "reference": "049797d727261bf27f2690430d935067710049c2",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0"
-            },
-            "replace": {
-                "roundcube/plugin-installer": "*",
-                "shama/baton": "*"
-            },
-            "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "^4.8.36"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Composer\\Installers\\Plugin",
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Composer\\Installers\\": "src/Composer/Installers"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kyle Robinson Young",
-                    "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama"
-                }
-            ],
-            "description": "A multi-framework Composer library installer",
-            "homepage": "https://composer.github.io/installers/",
-            "keywords": [
-                "Craft",
-                "Dolibarr",
-                "Eliasis",
-                "Hurad",
-                "ImageCMS",
-                "Kanboard",
-                "Lan Management System",
-                "MODX Evo",
-                "Mautic",
-                "Maya",
-                "OXID",
-                "Plentymarkets",
-                "Porto",
-                "RadPHP",
-                "SMF",
-                "Thelia",
-                "WolfCMS",
-                "agl",
-                "aimeos",
-                "annotatecms",
-                "attogram",
-                "bitrix",
-                "cakephp",
-                "chef",
-                "cockpit",
-                "codeigniter",
-                "concrete5",
-                "croogo",
-                "dokuwiki",
-                "drupal",
-                "eZ Platform",
-                "elgg",
-                "expressionengine",
-                "fuelphp",
-                "grav",
-                "installer",
-                "itop",
-                "joomla",
-                "kohana",
-                "laravel",
-                "lavalite",
-                "lithium",
-                "magento",
-                "majima",
-                "mako",
-                "mediawiki",
-                "modulework",
-                "modx",
-                "moodle",
-                "osclass",
-                "phpbb",
-                "piwik",
-                "ppi",
-                "puppet",
-                "pxcms",
-                "reindex",
-                "roundcube",
-                "shopware",
-                "silverstripe",
-                "sydes",
-                "symfony",
-                "typo3",
-                "wordpress",
-                "yawik",
-                "zend",
-                "zikula"
-            ],
-            "time": "2017-12-29T09:13:20+00:00"
         },
         {
             "name": "composer/semver",
@@ -3049,6 +2394,44 @@
                 "tokenizer"
             ],
             "time": "2018-03-21T22:21:57+00:00"
+        },
+        {
+            "name": "joshbrw/laravel-module-installer",
+            "version": "v0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joshbrw/laravel-module-installer.git",
+                "reference": "06bf72e947c313ba7d84c498fb6947a00ba313ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/joshbrw/laravel-module-installer/06bf72e947c313ba7d84c498fb6947a00ba313ef.zip",
+                "reference": "06bf72e947c313ba7d84c498fb6947a00ba313ef",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1",
+                "php": "^5.4|7.*"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3",
+                "mockery/mockery": "~1.0",
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Joshbrw\\LaravelModuleInstaller\\LaravelModuleInstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Joshbrw\\LaravelModuleInstaller\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2017-11-08T10:06:42+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -6110,63 +5493,6 @@
             "time": "2018-03-20T21:24:28+00:00"
         },
         {
-            "name": "renatomarinho/laravel-page-speed",
-            "version": "1.8.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/renatomarinho/laravel-page-speed.git",
-                "reference": "5ea5fe7721a6658a2b8d8816cb9c0f25e2dac844"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/renatomarinho/laravel-page-speed/5ea5fe7721a6658a2b8d8816cb9c0f25e2dac844.zip",
-                "reference": "5ea5fe7721a6658a2b8d8816cb9c0f25e2dac844",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "5.3.* || 5.4.* || 5.5.* || 5.6.*",
-                "php": "^5.6 || ^7.0"
-            },
-            "require-dev": {
-                "mockery/mockery": ">=0.9.4",
-                "orchestra/testbench": "^3.2",
-                "phpunit/phpunit": "^5.7 || ^6.0",
-                "squizlabs/php_codesniffer": "^2.3"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "RenatoMarinho\\LaravelPageSpeed\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "RenatoMarinho\\LaravelPageSpeed\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Renato Marinho",
-                    "email": "renato.marinho@s2move.com"
-                }
-            ],
-            "description": "Laravel Page Speed",
-            "keywords": [
-                "html",
-                "laravel",
-                "minify",
-                "optmize",
-                "page speed"
-            ],
-            "time": "2018-02-11T21:33:58+00:00"
-        },
-        {
             "name": "santigarcor/laratrust",
             "version": "5.0.9",
             "source": {
@@ -6481,6 +5807,57 @@
                 "spatie"
             ],
             "time": "2018-04-27T15:10:51+00:00"
+        },
+        {
+            "name": "spatie/eloquent-sortable",
+            "version": "3.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/eloquent-sortable.git",
+                "reference": "36886c9da0500104df229b148453fd346400b146"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/spatie/eloquent-sortable/36886c9da0500104df229b148453fd346400b146.zip",
+                "reference": "36886c9da0500104df229b148453fd346400b146",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "~5.5.0|~5.6.0",
+                "illuminate/support": "~5.5.0|~5.6.0",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.5.0|~3.6.0",
+                "phpunit/phpunit": "^6.2|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\EloquentSortable\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be"
+                }
+            ],
+            "description": "Sortable behaviour for eloquent models",
+            "homepage": "https://github.com/spatie/eloquent-sortable",
+            "keywords": [
+                "behaviour",
+                "eloquent",
+                "laravel",
+                "model",
+                "sort",
+                "sortable"
+            ],
+            "time": "2018-02-07T23:13:36+00:00"
         },
         {
             "name": "spatie/laravel-analytics",
@@ -9574,6 +8951,63 @@
                 "xunit"
             ],
             "time": "2018-06-01T07:54:27+00:00"
+        },
+        {
+            "name": "renatomarinho/laravel-page-speed",
+            "version": "1.8.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/renatomarinho/laravel-page-speed.git",
+                "reference": "5ea5fe7721a6658a2b8d8816cb9c0f25e2dac844"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/renatomarinho/laravel-page-speed/5ea5fe7721a6658a2b8d8816cb9c0f25e2dac844.zip",
+                "reference": "5ea5fe7721a6658a2b8d8816cb9c0f25e2dac844",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.3.* || 5.4.* || 5.5.* || 5.6.*",
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": ">=0.9.4",
+                "orchestra/testbench": "^3.2",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "RenatoMarinho\\LaravelPageSpeed\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "RenatoMarinho\\LaravelPageSpeed\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Renato Marinho",
+                    "email": "renato.marinho@s2move.com"
+                }
+            ],
+            "description": "Laravel Page Speed",
+            "keywords": [
+                "html",
+                "laravel",
+                "minify",
+                "optmize",
+                "page speed"
+            ],
+            "time": "2018-02-11T21:33:58+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
