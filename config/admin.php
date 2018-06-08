@@ -74,6 +74,12 @@ return [
             'image' => 'images',
             'file'  => 'files',
         ],
+//        'disk' => 'qiniu',
+//
+//        'directory'  => [
+//            'image'  => 'image',
+//            'file'   => 'file',
+//        ],
     ],
 
     /*
@@ -151,6 +157,8 @@ return [
      * Settings for extensions.
      */
     'extensions' => [
-
+        'media-manager' => [
+            'disk' => 'public'   // 指向config/filesystem.php中设置的disk
+        ],
     ],
 ];
