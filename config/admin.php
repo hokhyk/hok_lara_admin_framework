@@ -5,17 +5,17 @@ return [
     /*
      * Laravel-admin name.
      */
-    'name' => 'Laravel-admin-hok',
+    'name' => 'Laravel-admin',
 
     /*
      * Logo in admin panel header.
      */
-    'logo' => '<b>Laravel</b> admin-hok',
+    'logo' => '<b>Laravel</b> admin',
 
     /*
      * Mini-logo in admin panel header.
      */
-    'logo-mini' => '<b>Hok</b>',
+    'logo-mini' => '<b>La</b>',
 
     /*
      * Route configuration.
@@ -74,12 +74,6 @@ return [
             'image' => 'images',
             'file'  => 'files',
         ],
-//        'disk' => 'qiniu',
-//
-//        'directory'  => [
-//            'image'  => 'image',
-//            'file'   => 'file',
-//        ],
     ],
 
     /*
@@ -149,6 +143,11 @@ return [
     'layout' => ['sidebar-mini', 'sidebar-collapse'],
 
     /*
+     * Background image in login page
+     */
+    'login_background_image' => '',
+
+    /*
      * Version displayed in footer.
      */
     'version' => '1.5.x-dev',
@@ -157,8 +156,6 @@ return [
      * Settings for extensions.
      */
     'extensions' => [
-        'media-manager' => [
-            'disk' => 'public'   // 指向config/filesystem.php中设置的disk
-        ],
+
     ],
 ];

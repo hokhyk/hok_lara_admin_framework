@@ -160,6 +160,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Encore\Admin\AdminServiceProvider::class,
         //Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         //Modules\Shop\Providers\ShopServiceProvider::class,
     ],

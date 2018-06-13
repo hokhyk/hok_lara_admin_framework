@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca42effd79e23c167f38e4b7e50981c1",
+    "content-hash": "837f6ef6d5a39701d1076c8e7c93c657",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -70,16 +70,16 @@
         },
         {
             "name": "caouecs/laravel-lang",
-            "version": "3.0.48",
+            "version": "3.0.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caouecs/Laravel-lang.git",
-                "reference": "00a265f660c80c59d1208f6b190349365d4cb053"
+                "reference": "c009f791582e58abfca70c8f0ded08b2668e81a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/caouecs/Laravel-lang/00a265f660c80c59d1208f6b190349365d4cb053.zip",
-                "reference": "00a265f660c80c59d1208f6b190349365d4cb053",
+                "url": "https://files.phpcomposer.com/files/caouecs/Laravel-lang/c009f791582e58abfca70c8f0ded08b2668e81a8.zip",
+                "reference": "c009f791582e58abfca70c8f0ded08b2668e81a8",
                 "shasum": ""
             },
             "require-dev": {
@@ -108,20 +108,20 @@
                 "laravel",
                 "lpm"
             ],
-            "time": "2018-05-08T14:16:52+00:00"
+            "time": "2018-06-07T19:27:38+00:00"
         },
         {
             "name": "cmgmyr/messenger",
-            "version": "2.15",
+            "version": "2.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cmgmyr/laravel-messenger.git",
-                "reference": "3da74c4edd8f0caa292ba1fbfc2f42d209519f1b"
+                "reference": "717a27e1519e8d75a2f8a6f78e1d1efaf0cdf092"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/cmgmyr/laravel-messenger/3da74c4edd8f0caa292ba1fbfc2f42d209519f1b.zip",
-                "reference": "3da74c4edd8f0caa292ba1fbfc2f42d209519f1b",
+                "url": "https://files.phpcomposer.com/files/cmgmyr/laravel-messenger/717a27e1519e8d75a2f8a6f78e1d1efaf0cdf092.zip",
+                "reference": "717a27e1519e8d75a2f8a6f78e1d1efaf0cdf092",
                 "shasum": ""
             },
             "require": {
@@ -169,7 +169,7 @@
                 "messaging",
                 "user messaging"
             ],
-            "time": "2017-10-06T20:41:20+00:00"
+            "time": "2018-06-09T00:35:47+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -1257,16 +1257,16 @@
         },
         {
             "name": "dragonmantank/cron-expression",
-            "version": "v2.1.0",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dragonmantank/cron-expression.git",
-                "reference": "3f00985deec8df53d4cc1e5c33619bda1ee309a5"
+                "reference": "92a2c3768d50e21a1f26a53cb795ce72806266c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/dragonmantank/cron-expression/3f00985deec8df53d4cc1e5c33619bda1ee309a5.zip",
-                "reference": "3f00985deec8df53d4cc1e5c33619bda1ee309a5",
+                "url": "https://files.phpcomposer.com/files/dragonmantank/cron-expression/92a2c3768d50e21a1f26a53cb795ce72806266c5.zip",
+                "reference": "92a2c3768d50e21a1f26a53cb795ce72806266c5",
                 "shasum": ""
             },
             "require": {
@@ -1302,7 +1302,7 @@
                 "cron",
                 "schedule"
             ],
-            "time": "2018-04-06T15:51:55+00:00"
+            "time": "2018-06-06T03:12:17+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -1363,16 +1363,16 @@
         },
         {
             "name": "encore/laravel-admin",
-            "version": "v1.5.13",
+            "version": "v1.5.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/z-song/laravel-admin.git",
-                "reference": "bccb1d4c6f9d216821d7d69d56c138537ea990b2"
+                "reference": "3f5e6d47a3294baafe3a8844f6e5177e50e4c138"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/z-song/laravel-admin/bccb1d4c6f9d216821d7d69d56c138537ea990b2.zip",
-                "reference": "bccb1d4c6f9d216821d7d69d56c138537ea990b2",
+                "url": "https://files.phpcomposer.com/files/z-song/laravel-admin/3f5e6d47a3294baafe3a8844f6e5177e50e4c138.zip",
+                "reference": "3f5e6d47a3294baafe3a8844f6e5177e50e4c138",
                 "shasum": ""
             },
             "require": {
@@ -1429,7 +1429,7 @@
                 "grid",
                 "laravel"
             ],
-            "time": "2018-05-06T10:08:29+00:00"
+            "time": "2018-06-06T13:40:40+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -1688,16 +1688,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.61",
+            "version": "v0.63",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client-services.git",
-                "reference": "f7221039fda179b3f5096a6272b38706f2a6fcd0"
+                "reference": "a009a33246e90bf1f60f745f8e47039ac5a87fdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/google/google-api-php-client-services/f7221039fda179b3f5096a6272b38706f2a6fcd0.zip",
-                "reference": "f7221039fda179b3f5096a6272b38706f2a6fcd0",
+                "url": "https://files.phpcomposer.com/files/google/google-api-php-client-services/a009a33246e90bf1f60f745f8e47039ac5a87fdf.zip",
+                "reference": "a009a33246e90bf1f60f745f8e47039ac5a87fdf",
                 "shasum": ""
             },
             "require": {
@@ -1721,7 +1721,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2018-05-26T00:23:39+00:00"
+            "time": "2018-06-07T00:22:54+00:00"
         },
         {
             "name": "google/auth",
@@ -1957,12 +1957,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/InfyOmLabs/adminlte-templates.git",
-                "reference": "0586f3b2bb0b26b47ba65722af687614e90f5c6f"
+                "reference": "eb2571f1f40e4602867e747952d8aa838cf8be47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/InfyOmLabs/adminlte-templates/0586f3b2bb0b26b47ba65722af687614e90f5c6f.zip",
-                "reference": "0586f3b2bb0b26b47ba65722af687614e90f5c6f",
+                "url": "https://files.phpcomposer.com/files/InfyOmLabs/adminlte-templates/eb2571f1f40e4602867e747952d8aa838cf8be47.zip",
+                "reference": "eb2571f1f40e4602867e747952d8aa838cf8be47",
                 "shasum": ""
             },
             "require": {
@@ -2001,7 +2001,7 @@
                 "laravel",
                 "templates"
             ],
-            "time": "2017-11-25T04:41:55+00:00"
+            "time": "2018-06-05T18:07:48+00:00"
         },
         {
             "name": "infyomlabs/laravel-generator",
@@ -2842,17 +2842,177 @@
             "time": "2018-04-18T05:37:25+00:00"
         },
         {
-            "name": "laravel/framework",
-            "version": "v5.6.23",
+            "name": "laravel-admin-ext/backup",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "f547f0a71a12763d1adb8493237d541c9e3a5d10"
+                "url": "https://github.com/laravel-admin-extensions/backup.git",
+                "reference": "9477a6ad6d345333cc3f39285a9b786836715bfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/laravel/framework/f547f0a71a12763d1adb8493237d541c9e3a5d10.zip",
-                "reference": "f547f0a71a12763d1adb8493237d541c9e3a5d10",
+                "url": "https://files.phpcomposer.com/files/laravel-admin-extensions/backup/9477a6ad6d345333cc3f39285a9b786836715bfe.zip",
+                "reference": "9477a6ad6d345333cc3f39285a9b786836715bfe",
+                "shasum": ""
+            },
+            "require": {
+                "encore/laravel-admin": "~1.5",
+                "laravel/framework": "~5.5",
+                "php": ">=7.0.0",
+                "spatie/laravel-backup": "^5.0"
+            },
+            "require-dev": {
+                "laravel/laravel": "~5.5",
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Encore\\Admin\\Backup\\BackupServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Encore\\Admin\\Backup\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "z-song",
+                    "email": "zosong@126.com"
+                }
+            ],
+            "description": "Backup extension for laravel-admin",
+            "homepage": "https://github.com/laravel-admin-extensions/backup",
+            "keywords": [
+                "backup",
+                "laravel-admin"
+            ],
+            "time": "2018-04-24T11:45:17+00:00"
+        },
+        {
+            "name": "laravel-admin-ext/redis-manager",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-admin-extensions/redis-manager.git",
+                "reference": "391d683fc7fa27535142c20de5a70aa9f94ef23c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/laravel-admin-extensions/redis-manager/391d683fc7fa27535142c20de5a70aa9f94ef23c.zip",
+                "reference": "391d683fc7fa27535142c20de5a70aa9f94ef23c",
+                "shasum": ""
+            },
+            "require": {
+                "encore/laravel-admin": "~1.5",
+                "laravel/framework": "~5.5",
+                "php": ">=7.0.0",
+                "predis/predis": "~1.0"
+            },
+            "require-dev": {
+                "laravel/laravel": "~5.5",
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Encore\\Admin\\RedisManager\\RedisManagerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Encore\\Admin\\RedisManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "z-song",
+                    "email": "zosong@126.com"
+                }
+            ],
+            "description": "Redis manager for laravel-admin",
+            "homepage": "https://github.com/laravel-admin-extensions/redis-manager",
+            "keywords": [
+                "laravel-admin",
+                "manager",
+                "redis"
+            ],
+            "time": "2018-05-03T07:59:06+00:00"
+        },
+        {
+            "name": "laravel/envoy",
+            "version": "v1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/envoy.git",
+                "reference": "6078f794bd1015f63e98800d8daa9773237486cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/laravel/envoy/6078f794bd1015f63e98800d8daa9773237486cf.zip",
+                "reference": "6078f794bd1015f63e98800d8daa9773237486cf",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~4.1 || ~5.0",
+                "nategood/httpful": "~0.2",
+                "symfony/console": "~3.0 || ~4.0",
+                "symfony/process": "~3.0 || ~4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "bin": [
+                "envoy"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "Elegant SSH tasks for PHP.",
+            "keywords": [
+                "laravel",
+                "ssh"
+            ],
+            "time": "2018-02-14T18:42:11+00:00"
+        },
+        {
+            "name": "laravel/framework",
+            "version": "v5.6.24",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "56290edeb0d8051826d40b4cbd8ed3c30348b2b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/laravel/framework/56290edeb0d8051826d40b4cbd8ed3c30348b2b5.zip",
+                "reference": "56290edeb0d8051826d40b4cbd8ed3c30348b2b5",
                 "shasum": ""
             },
             "require": {
@@ -2978,7 +3138,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-05-22T14:55:57+00:00"
+            "time": "2018-06-04T14:51:03+00:00"
         },
         {
             "name": "laravel/passport",
@@ -4161,6 +4321,56 @@
             "time": "2016-06-20T20:53:12+00:00"
         },
         {
+            "name": "nategood/httpful",
+            "version": "0.2.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nategood/httpful.git",
+                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/nategood/httpful/c1cd4d46a4b281229032cf39d4dd852f9887c0f6.zip",
+                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Httpful": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nate Good",
+                    "email": "me@nategood.com",
+                    "homepage": "http://nategood.com"
+                }
+            ],
+            "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
+            "homepage": "http://github.com/nategood/httpful",
+            "keywords": [
+                "api",
+                "curl",
+                "http",
+                "requests",
+                "rest",
+                "restful"
+            ],
+            "time": "2015-10-26T16:11:30+00:00"
+        },
+        {
             "name": "nesbot/carbon",
             "version": "1.25.0",
             "source": {
@@ -4215,16 +4425,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.0.1",
+            "version": "v4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "e4a54fa90a5cd8e8dd3fb4099942681731c5cdd3"
+                "reference": "35b8caf75e791ba1b2d24fec1552168d72692b12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/nikic/PHP-Parser/e4a54fa90a5cd8e8dd3fb4099942681731c5cdd3.zip",
-                "reference": "e4a54fa90a5cd8e8dd3fb4099942681731c5cdd3",
+                "url": "https://files.phpcomposer.com/files/nikic/PHP-Parser/35b8caf75e791ba1b2d24fec1552168d72692b12.zip",
+                "reference": "35b8caf75e791ba1b2d24fec1552168d72692b12",
                 "shasum": ""
             },
             "require": {
@@ -4262,77 +4472,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2018-03-25T17:35:16+00:00"
-        },
-        {
-            "name": "nwidart/laravel-modules",
-            "version": "3.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nWidart/laravel-modules.git",
-                "reference": "5250efef2505c47687ebe4c0368a4f0cd01c84ef"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/nWidart/laravel-modules/5250efef2505c47687ebe4c0368a4f0cd01c84ef.zip",
-                "reference": "5250efef2505c47687ebe4c0368a4f0cd01c84ef",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.7",
-                "laravel/framework": "5.6.*",
-                "mockery/mockery": "~1.0",
-                "orchestra/testbench": "^3.6",
-                "phpstan/phpstan": "^0.9.2",
-                "phpunit/phpunit": "~7.0",
-                "spatie/phpunit-snapshot-assertions": "^1.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Nwidart\\Modules\\LaravelModulesServiceProvider"
-                    ],
-                    "aliases": {
-                        "Module": "Nwidart\\Modules\\Facades\\Module"
-                    }
-                },
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Nwidart\\Modules\\": "src"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Widart",
-                    "email": "n.widart@gmail.com",
-                    "homepage": "https://nicolaswidart.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Laravel Module management",
-            "keywords": [
-                "laravel",
-                "module",
-                "modules",
-                "nwidart",
-                "rad"
-            ],
-            "time": "2018-04-16T17:35:14+00:00"
+            "time": "2018-06-03T11:33:10+00:00"
         },
         {
             "name": "overtrue/flysystem-qiniu",
@@ -4470,16 +4610,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.12",
+            "version": "v2.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "258c89a6b97de7dfaf5b8c7607d0478e236b04fb"
+                "reference": "10bcb46e8f3d365170f6de9d05245aa066b81f09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/paragonie/random_compat/258c89a6b97de7dfaf5b8c7607d0478e236b04fb.zip",
-                "reference": "258c89a6b97de7dfaf5b8c7607d0478e236b04fb",
+                "url": "https://files.phpcomposer.com/files/paragonie/random_compat/10bcb46e8f3d365170f6de9d05245aa066b81f09.zip",
+                "reference": "10bcb46e8f3d365170f6de9d05245aa066b81f09",
                 "shasum": ""
             },
             "require": {
@@ -4511,10 +4651,11 @@
             "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
             "keywords": [
                 "csprng",
+                "polyfill",
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-04-04T21:24:14+00:00"
+            "time": "2018-06-08T15:26:40+00:00"
         },
         {
             "name": "php-di/invoker",
@@ -4707,16 +4848,16 @@
         },
         {
             "name": "phpoffice/phpspreadsheet",
-            "version": "1.2.1",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-                "reference": "36acc372875c4d894dc093825ce4f62209db5a76"
+                "reference": "2eb342c13da50211fdfea73b513647e22a87e78f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/PHPOffice/PhpSpreadsheet/36acc372875c4d894dc093825ce4f62209db5a76.zip",
-                "reference": "36acc372875c4d894dc093825ce4f62209db5a76",
+                "url": "https://files.phpcomposer.com/files/PHPOffice/PhpSpreadsheet/2eb342c13da50211fdfea73b513647e22a87e78f.zip",
+                "reference": "2eb342c13da50211fdfea73b513647e22a87e78f",
                 "shasum": ""
             },
             "require": {
@@ -4789,7 +4930,7 @@
                 "xls",
                 "xlsx"
             ],
-            "time": "2018-04-10T03:53:16+00:00"
+            "time": "2018-06-10T06:44:19+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -5278,16 +5419,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.9.4",
+            "version": "v0.9.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "4d969a0e08e1e05e7207c07cb4207017ecc9a331"
+                "reference": "4a2ce86f199d51b6e2524214dc06835e872f4fce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/bobthecow/psysh/4d969a0e08e1e05e7207c07cb4207017ecc9a331.zip",
-                "reference": "4d969a0e08e1e05e7207c07cb4207017ecc9a331",
+                "url": "https://files.phpcomposer.com/files/bobthecow/psysh/4a2ce86f199d51b6e2524214dc06835e872f4fce.zip",
+                "reference": "4a2ce86f199d51b6e2524214dc06835e872f4fce",
                 "shasum": ""
             },
             "require": {
@@ -5346,7 +5487,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2018-05-22T06:48:07+00:00"
+            "time": "2018-06-10T17:57:20+00:00"
         },
         {
             "name": "qiniu/php-sdk",
@@ -5971,16 +6112,16 @@
         },
         {
             "name": "spatie/laravel-backup",
-            "version": "5.7.0",
+            "version": "5.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-backup.git",
-                "reference": "60c6fbc27c9c2cbdf3c7da90b080a63d2599cd2d"
+                "reference": "4d666be08c107c62216f126119d7986cd4456d5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/spatie/laravel-backup/60c6fbc27c9c2cbdf3c7da90b080a63d2599cd2d.zip",
-                "reference": "60c6fbc27c9c2cbdf3c7da90b080a63d2599cd2d",
+                "url": "https://files.phpcomposer.com/files/spatie/laravel-backup/4d666be08c107c62216f126119d7986cd4456d5f.zip",
+                "reference": "4d666be08c107c62216f126119d7986cd4456d5f",
                 "shasum": ""
             },
             "require": {
@@ -6040,7 +6181,7 @@
                 "laravel-backup",
                 "spatie"
             ],
-            "time": "2018-05-11T07:06:58+00:00"
+            "time": "2018-06-08T22:28:28+00:00"
         },
         {
             "name": "spatie/laravel-permission",
@@ -8211,16 +8352,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.1.14",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "c6081b8838686aa04f1e83ba7e91f78b7b2a23e6"
+                "reference": "181c4502d8f34db7aed7bfe88d4f87875b8e947a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/filp/whoops/c6081b8838686aa04f1e83ba7e91f78b7b2a23e6.zip",
-                "reference": "c6081b8838686aa04f1e83ba7e91f78b7b2a23e6",
+                "url": "https://files.phpcomposer.com/files/filp/whoops/181c4502d8f34db7aed7bfe88d4f87875b8e947a.zip",
+                "reference": "181c4502d8f34db7aed7bfe88d4f87875b8e947a",
                 "shasum": ""
             },
             "require": {
@@ -8228,9 +8369,9 @@
                 "psr/log": "^1.0.1"
             },
             "require-dev": {
-                "mockery/mockery": "0.9.*",
+                "mockery/mockery": "^0.9 || ^1.0",
                 "phpunit/phpunit": "^4.8.35 || ^5.7",
-                "symfony/var-dumper": "^2.6 || ^3.0"
+                "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0"
             },
             "suggest": {
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
@@ -8239,7 +8380,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.1-dev"
                 }
             },
             "autoload": {
@@ -8268,7 +8409,7 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2017-11-23T18:22:44+00:00"
+            "time": "2018-03-03T17:56:25+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -9190,16 +9331,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.2.2",
+            "version": "7.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3cf0836680bf5c365c627e8566d46c9e1f544db9"
+                "reference": "00bc0b93f0ff4f557e9ea766557fde96da9a03dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/sebastianbergmann/phpunit/3cf0836680bf5c365c627e8566d46c9e1f544db9.zip",
-                "reference": "3cf0836680bf5c365c627e8566d46c9e1f544db9",
+                "url": "https://files.phpcomposer.com/files/sebastianbergmann/phpunit/00bc0b93f0ff4f557e9ea766557fde96da9a03dd.zip",
+                "reference": "00bc0b93f0ff4f557e9ea766557fde96da9a03dd",
                 "shasum": ""
             },
             "require": {
@@ -9270,64 +9411,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-06-01T07:54:27+00:00"
-        },
-        {
-            "name": "renatomarinho/laravel-page-speed",
-            "version": "1.8.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/renatomarinho/laravel-page-speed.git",
-                "reference": "5ea5fe7721a6658a2b8d8816cb9c0f25e2dac844"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/renatomarinho/laravel-page-speed/5ea5fe7721a6658a2b8d8816cb9c0f25e2dac844.zip",
-                "reference": "5ea5fe7721a6658a2b8d8816cb9c0f25e2dac844",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "5.3.* || 5.4.* || 5.5.* || 5.6.*",
-                "php": "^5.6 || ^7.0"
-            },
-            "require-dev": {
-                "mockery/mockery": ">=0.9.4",
-                "orchestra/testbench": "^3.2",
-                "phpunit/phpunit": "^5.7 || ^6.0",
-                "squizlabs/php_codesniffer": "^2.3"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "RenatoMarinho\\LaravelPageSpeed\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "RenatoMarinho\\LaravelPageSpeed\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Renato Marinho",
-                    "email": "renato.marinho@s2move.com"
-                }
-            ],
-            "description": "Laravel Page Speed",
-            "keywords": [
-                "html",
-                "laravel",
-                "minify",
-                "optmize",
-                "page speed"
-            ],
-            "time": "2018-02-11T21:33:58+00:00"
+            "time": "2018-06-05T03:40:05+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -9440,16 +9524,16 @@
         },
         {
             "name": "sebastian/diff",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "e09160918c66281713f1c324c1f4c4c3037ba1e8"
+                "reference": "366541b989927187c4ca70490a35615d3fef2dce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/sebastianbergmann/diff/e09160918c66281713f1c324c1f4c4c3037ba1e8.zip",
-                "reference": "e09160918c66281713f1c324c1f4c4c3037ba1e8",
+                "url": "https://files.phpcomposer.com/files/sebastianbergmann/diff/366541b989927187c4ca70490a35615d3fef2dce.zip",
+                "reference": "366541b989927187c4ca70490a35615d3fef2dce",
                 "shasum": ""
             },
             "require": {
@@ -9492,7 +9576,7 @@
                 "unidiff",
                 "unified diff"
             ],
-            "time": "2018-02-01T13:45:15+00:00"
+            "time": "2018-06-10T07:54:39+00:00"
         },
         {
             "name": "sebastian/environment",

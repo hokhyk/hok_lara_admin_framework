@@ -5,6 +5,10 @@ namespace App\Exceptions;
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
+use Encore\Admin\Reporter\Reporter;
+use Illuminate\Auth\AuthenticationException;
+use Illuminate\Validation\ValidationException;
+
 class Handler extends ExceptionHandler
 {
     /**
@@ -34,6 +38,10 @@ class Handler extends ExceptionHandler
      */
     public function report(Exception $exception)
     {
+//       added for laravel-admin exception report.
+//        if ($this->shouldReport($exception)) {
+//            Reporter::report($exception);
+//        }
         parent::report($exception);
     }
 
